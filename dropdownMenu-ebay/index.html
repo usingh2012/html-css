@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="src/index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="content-box">
+      <div class="dropdown">
+        <button class="dropdown-label">
+          <span>User details</span>
+          <span class="dropdown-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path
+                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+              />
+            </svg>
+          </span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-menu-items">Summary</a>
+          <a class="dropdown-menu-items">WatchList</a>
+          <a class="dropdown-menu-items">Account</a>
+          <a class="dropdown-menu-items">Orders</a>
+          <a class="dropdown-menu-items">Returns</a>
+          <a class="dropdown-menu-items">Change Password</a>
+          <a class="dropdown-menu-items">Logout</a>
+        </div>
+      </div>
+
+      <div>
+        <button id="toggleBtn">Toggle Theme</button>
+      </div>
+    </div>
+  </body>
+</html>
